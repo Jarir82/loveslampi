@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Loveslampi Mökit – Nauti luonnosta ja rauhasta</title>
+<meta name="description" content="Vuokraa Loveslammen mökkikokonaisuus Haminassa: päämökki, pikkumökit, puulämmitteinen rantasauna ja poreamme. Nukkumapaikat noin 20 hengelle.">
+<meta name="theme-color" content="#2c4429">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8F%A1%3C/text%3E%3C/svg%3E">
+<style>
+:root{--b1:url(images/b1.jpg);--b2:url(images/b2.jpg);--s1:url(images/s1.jpg);--s2:url(images/s2.jpg);--s3:url(images/s3.jpg);--s4:url(images/s4.jpg);--s5:url(images/s5.jpg);--s6:url(images/s6.jpg);--s7:url(images/s7.jpg);--v1:url(images/v1.jpg);--k1:url(images/k1.jpg);--k2:url(images/k2.jpg);--k3:url(images/k3.jpg);--k4:url(images/k4.jpg);--m1:url(images/m1.jpg);--m2:url(images/m2.jpg);--m3:url(images/m3.jpg);--m4:url(images/m4.jpg);--m5:url(images/m5.jpg);--m6:url(images/m6.jpg);--m7:url(images/m7.jpg);--p1:url(images/p1.jpg);--p2:url(images/p2.jpg);--p3:url(images/p3.jpg);--p4:url(images/p4.jpg);--p5:url(images/p5.jpg);--p6:url(images/p6.jpg);--p7:url(images/p7.jpg);--p8:url(images/p8.jpg);--p9:url(images/p9.jpg);--main:url(images/main.jpg);--pine:#2c4429;--deep:#1c2f1b;--moss:#4f6b3f;--sand:#f3ecdc;--paper:#fbf8f1;--amber:#c9954a;--amber-d:#a87a35;--lake:#6f93a8;--ink:#23291f;--muted:#5d655a}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:64px}
+body{font-family:"Segoe UI",system-ui,-apple-system,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;font-size:17px}
+h1,h2,h3{font-family:Georgia,"Iowan Old Style","Palatino Linotype",serif;line-height:1.15;font-weight:700;color:var(--deep)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--amber);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+.herophoto{position:absolute;inset:0;background:var(--main) center 38%/cover no-repeat}
+.photo{background:var(--main) center 55%/cover no-repeat}
+.small{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:56px}
+.small div{background:#fff;border-radius:14px;padding:26px 28px;box-shadow:0 6px 24px #2c44291a;border-top:3px solid var(--amber)}
+.small h3{font-size:22px;margin-bottom:8px}.small p{color:var(--muted);font-size:15.5px}
+.equip{display:grid;grid-template-columns:1fr 1fr;gap:56px;margin-top:36px}
+.equip h3{font-size:22px;margin-bottom:12px}
+.equip ul{list-style:none;padding:0}
+.equip li{padding:9px 0;border-bottom:1px solid #e3dac3;font-size:15.5px}
+.equip li b{font-weight:600}
+.contact-name{color:#fff;font-weight:600}
+.map{padding:0}
+.map .wrap{padding-bottom:0}
+.mapframe{margin-top:30px;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px #2c44291f;height:420px;background:#dfe6da}
+.mapframe iframe{width:100%;height:100%;border:0;display:block}
+.maphead{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap}
+.ph{background-size:cover;background-position:center}
+.gal{display:grid;gap:14px;margin-top:40px}
+.gal.g4{grid-template-columns:repeat(4,1fr)}.gal.g2{grid-template-columns:1fr 1fr}
+.gal div{aspect-ratio:4/3;border-radius:12px;background-size:cover;background-position:center}
+a.tile{display:block;text-decoration:none;color:inherit;transition:transform .2s,box-shadow .2s}
+a.tile:hover{transform:translateY(-3px);box-shadow:0 12px 30px #2c442930}
+.tile .more{display:inline-block;margin-top:10px;font-weight:600;font-size:14px;color:var(--amber-d)}
+dialog.dlg{border:0;border-radius:18px;padding:0;width:min(960px,94vw);max-height:90vh;background:var(--paper);color:var(--ink);box-shadow:0 30px 80px #0008}
+dialog.dlg::backdrop{background:#0a140bcc}
+.dlg-head{position:sticky;top:0;display:flex;justify-content:space-between;align-items:center;gap:16px;padding:18px 24px;background:var(--paper);border-bottom:1px solid #e3dac3;z-index:2}
+.dlg-head h3{font-size:24px}
+.dlg-close{background:var(--pine);color:#fff;border:0;border-radius:999px;padding:9px 18px;font:inherit;font-size:15px;cursor:pointer}
+.dlg-close:hover{background:var(--moss)}
+.dlg-body{padding:20px 24px 26px}
+.dlg-body>p{color:var(--muted);margin-bottom:18px}
+.dgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.dgrid div{aspect-ratio:4/3;border-radius:12px;background-size:cover;background-position:center}
+.dgrid div:first-child{grid-column:1/-1;aspect-ratio:16/9}
+@media(max-width:600px){.dgrid{grid-template-columns:1fr}.dgrid div:first-child{aspect-ratio:4/3}}
+.pagehead{background:var(--pine);color:#fff;padding:40px 0 44px}
+.pagehead h1{color:#fff;font-size:clamp(32px,5vw,52px)}
+.pagehead p{max-width:640px;margin-top:12px;font-size:19px;color:#dbe6d2}
+.back{display:inline-block;margin-bottom:18px;color:#cfdcc5;text-decoration:none;font-size:15px}.back:hover{color:#fff}
+.pagehero{aspect-ratio:16/8;border-radius:18px;background-size:cover;background-position:center;margin-top:36px;box-shadow:0 14px 36px #2c44293a}
+.pblocks{display:grid;grid-template-columns:1fr 1fr;gap:34px 56px;margin-top:44px}
+.pblock h3{font-size:22px;margin-bottom:10px;padding-bottom:8px;border-bottom:2px solid var(--amber)}
+.pblock ul{list-style:none;padding:0}
+.pblock li{padding:8px 0;border-bottom:1px solid #e3dac3;font-size:15.5px}
+.pgal{margin-top:48px}
+.pgal h2{font-size:28px;margin-bottom:18px}
+.gal.g3{grid-template-columns:repeat(3,1fr);margin-top:0}
+.pcta{margin-top:56px;background:var(--sand);border-radius:18px;padding:30px 32px;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
+.pcta h3{font-size:24px}.pcta p{color:var(--muted);margin-top:4px}
+.pcta .btns{display:flex;gap:12px;flex-wrap:wrap}
+.pcta .btn.alt{background:transparent;border:2px solid var(--pine);color:var(--pine)}
+.page[hidden],#home[hidden]{display:none}
+@media(max-width:700px){.pblocks{grid-template-columns:1fr}.gal.g3{grid-template-columns:1fr 1fr}.pagehero{aspect-ratio:4/3}}
+.gal>div,.pagehero{cursor:zoom-in;transition:filter .2s}
+.gal>div:hover,.pagehero:hover{filter:brightness(1.07)}
+dialog.lb{border:0;padding:0;margin:0;width:100vw;height:100vh;max-width:none;max-height:none;background:transparent}
+dialog.lb[open]{display:flex}
+dialog.lb::backdrop{background:#050a06f2}
+.lb-stage{flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:64px 64px 20px;gap:12px;min-width:0}
+.lb-img{flex:1;width:100%;background-size:contain;background-repeat:no-repeat;background-position:center}
+.lb-cap{color:#e4ecdc;font-size:15px;min-height:24px;text-align:center}
+.lb button{position:absolute;background:#ffffff1f;color:#fff;border:0;border-radius:999px;cursor:pointer;font:inherit}
+.lb button:hover{background:#ffffff40}
+.lb-close{top:16px;right:16px;padding:10px 18px;font-size:15px}
+.lb-prev,.lb-next{top:50%;transform:translateY(-50%);width:48px;height:48px;font-size:24px}
+.lb-prev{left:12px}.lb-next{right:12px}
+@media(max-width:700px){.lb-stage{padding:60px 8px 12px}.lb-prev,.lb-next{top:auto;bottom:12px;transform:none}.lb-prev{left:12px}.lb-next{right:12px}}
+.pricecard{margin-top:34px;background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 6px 24px #2c44291a}
+.pc-head{background:var(--pine);color:#fff;padding:20px 24px}
+.pc-head h3{color:#fff;font-size:22px}
+.pc-head p{color:#cfdcc5;font-size:15px;margin-top:4px}
+.pc-prices{display:grid;grid-template-columns:1fr 1fr}
+.pc-prices div{padding:22px 24px;display:flex;flex-direction:column;gap:4px}
+.pc-prices div+div{border-left:1px solid #eee5cf}
+.pc-prices span{font-size:14px;color:var(--muted)}
+.pc-prices b{font-family:Georgia,serif;font-size:clamp(26px,7vw,38px);color:var(--deep);white-space:nowrap;line-height:1.1}
+/* nav */
+nav{position:sticky;top:0;z-index:20;background:var(--pine);color:#fff}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{white-space:nowrap;font-family:Georgia,serif;font-weight:700;font-size:20px;text-decoration:none;display:flex;align-items:center;gap:10px}
+.logo svg{width:28px;height:28px}
+nav ul{display:flex;gap:clamp(14px,2.2vw,26px);list-style:none;padding:0}
+nav ul a{white-space:nowrap;text-decoration:none;font-size:15px;opacity:.88;padding:6px 0;border-bottom:2px solid transparent}
+nav ul a:hover{opacity:1;border-color:var(--amber)}
+#menu{display:none;background:none;border:1px solid #fff6;color:#fff;border-radius:8px;padding:6px 12px;font-size:15px}
+/* hero */
+.hero{position:relative;min-height:600px;color:#fff;display:flex;align-items:center;overflow:hidden;background:#27402b}
+.hero>svg{position:absolute;inset:0;width:100%;height:100%}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,#0b160ccc 0%,#0b160c88 55%,#0b160c33 100%)}
+.hero .wrap{position:relative;z-index:2;padding-top:40px;padding-bottom:70px}
+.hero h1{color:#fff;font-size:clamp(36px,5.4vw,62px);max-width:560px}
+.hero p{max-width:470px;margin:20px 0 28px;font-size:19px;opacity:.95}
+.btn{display:inline-block;background:var(--amber);color:#1c1608;font-weight:600;text-decoration:none;padding:14px 26px;border-radius:999px;border:0;font-size:16px;cursor:pointer;transition:background .2s}
+.btn:hover{background:#dba95c}
+.btn.dark{background:var(--pine);color:#fff}.btn.dark:hover{background:var(--moss)}
+/* quick search */
+label{display:flex;flex-direction:column;gap:5px;font-size:13px;opacity:.95}
+input,select,textarea{font:inherit;font-size:15px;padding:11px 12px;border-radius:8px;border:1px solid #cfc8b4;background:#fff;color:var(--ink);width:100%}
+/* sections */
+section{padding:92px 0}
+.intro{padding-top:70px}
+.lead{max-width:640px;color:var(--muted);font-size:19px;margin-top:14px}
+h2{font-size:clamp(28px,3.6vw,42px)}
+.tiles{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:-10px}
+.tile{border-radius:14px;overflow:hidden;background:#fff;box-shadow:0 6px 24px #2c44291a}
+.tile svg{display:block;width:100%;height:170px}
+.tile div:not(.ph){padding:18px 20px 22px}
+.tile h3{font-size:20px;margin-bottom:6px}
+.tile p{color:var(--muted);font-size:15px}
+/* cabins */
+.cabins{background:var(--sand)}
+.cabin{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center;margin-top:56px}
+.cabin:nth-of-type(even) .pic{order:2}
+.pic{border-radius:18px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 14px 36px #2c44293a}
+.pic svg{width:100%;height:100%;display:block}
+.cabin h3{font-size:30px;margin-bottom:10px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0;margin:18px 0 24px}
+.facts li{background:#fff;border:1px solid #e0d6bd;border-radius:999px;padding:5px 14px;font-size:14px}
+/* sauna */
+.sauna{background:var(--deep);color:#e9efe2}
+.sauna h2{color:#fff}
+.sauna .cols{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.sauna p{margin-top:16px;color:#c9d6c0}
+.sauna .pic{box-shadow:none}
+/* activities */
+.acts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:18px;margin-top:40px}
+.act{border-top:3px solid var(--amber);padding-top:16px}
+.act h3{font-size:19px;margin-bottom:6px}
+.act p{font-size:15px;color:var(--muted)}
+/* prices */
+.prices{background:var(--sand)}
+.note{font-size:14px;color:var(--muted);margin-top:14px}
+/* booking */
+/* contact */
+footer{background:var(--pine);color:#e4ecdc;padding:56px 0 30px}
+footer .grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+footer h3{color:#fff;font-size:18px;margin-bottom:10px}
+footer p,footer a{font-size:15px;color:#cfdcc5}
+.copy{border-top:1px solid #ffffff22;margin-top:36px;padding-top:18px;font-size:13px;color:#9fb094}
+@media(max-width:860px){
+ .gal.g4{grid-template-columns:1fr 1fr}
+ .equip{grid-template-columns:1fr;gap:30px}
+  nav ul{display:none;position:absolute;top:60px;left:0;right:0;background:var(--pine);flex-direction:column;gap:0;padding:8px 24px 18px}
+ nav ul.open{display:flex}nav ul a{display:block;padding:12px 0}
+ #menu{display:block}
+  .tiles,.cabin,.sauna .cols,footer .grid{grid-template-columns:1fr}
+ .cabin:nth-of-type(even) .pic{order:0}
+ section{padding:64px 0}.hero{min-height:560px}
+}
+@media(max-width:860px){
+ .tiles{grid-template-columns:1fr 1fr;gap:12px}
+ .tiles .tile:last-child:nth-child(odd){grid-column:1/-1}
+ .tile .ph{height:110px!important}
+ .tile div:not(.ph){padding:12px 12px 14px}
+ .tile h3{font-size:16px;margin-bottom:4px}
+ .tile p{font-size:13px;line-height:1.45}
+ .tile .more{font-size:13px;margin-top:8px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav>
+ <div class="wrap">
+  <a class="logo" href="#etusivu" aria-label="Loveslampi Mökit">
+   <svg viewBox="0 0 32 32" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"><path d="M4 16 16 5l12 11M8 14v13h16V14M13 27v-8h6v8"/></svg>
+   Loveslampi
+  </a>
+  <button id="menu" aria-expanded="false">Valikko</button>
+  <ul id="links">
+   <li><a href="#etusivu">Etusivu</a></li>
+   <li><a href="#sivu-paamokki">Mökit</a></li>
+   <li><a href="#sivu-rantasauna">Rantasauna</a></li>
+   <li><a href="#aktiviteetit">Aktiviteetit</a></li>
+   <li><a href="#hinnasto">Hinnasto</a></li>
+      <li><a href="#yhteystiedot">Yhteystiedot</a></li>
+  </ul>
+ </div>
+</nav>
+
+<main id="home">
+<header class="hero" id="etusivu">
+ <div class="herophoto" aria-hidden="true"></div>
+ <div class="wrap">
+  <h1>Nauti luonnosta ja rauhasta Loveslammella</h1>
+  <p>Vuokraa koko Loveslammen mökkikokonaisuus: päämökki, pikkumökit, puulämmitteinen rantasauna ja poreamme. Nukkumapaikat noin 20 hengelle.</p>
+  <a class="btn" href="#yhteystiedot">Tutustu ja varaa lomasi</a>
+ </div>
+</header>
+
+<section class="intro">
+ <div class="wrap">
+  <h2>Lomapaikka, jossa viihdytään</h2>
+  <p class="lead">Loveslampi sijaitsee metsän syleilyssä. Aamukahvi laiturilla, ilta saunassa ja yö tähtitaivasta katsellen.</p>
+  <div class="tiles" style="margin-top:40px">
+   <a class="tile" href="#sivu-paamokki"><div class="ph" role="img" aria-label="" style="height:170px;background-image:var(--main);background-position:center 45%"></div><div><h3>Päämökki</h3><p>94 m², kolme makuuhuonetta ja kuisti.</p><span class="more">Avaa esittely</span></div></a>
+   <a class="tile" href="#sivu-pikkumokit"><div class="ph" role="img" aria-label="" style="height:170px;background-image:var(--p6);background-position:center 60%"></div><div><h3>Pikkumökit</h3><p>18 m² mökki ja kaksi 10 m² mökkiä.</p><span class="more">Avaa esittely</span></div></a>
+   <a class="tile" href="#sivu-rantasauna"><div class="ph" role="img" aria-label="" style="height:170px;background-image:var(--p4);background-position:center"></div><div><h3>Rantasauna</h3><p>Puulämmitteinen sauna ja poreamme järven rannalla.</p><span class="more">Avaa esittely</span></div></a>
+   <a class="tile" href="#sivu-ymparisto"><div class="ph" role="img" aria-label="" style="height:170px;background-image:var(--p7);background-position:center 55%"></div><div><h3>Ympäristö</h3><p>Loiva hiekka- ja kallioranta, joka sopii lapsille. Metsä alkaa pihasta.</p><span class="more">Avaa esittely</span></div></a>
+   <a class="tile" href="#sivu-elamykset"><div class="ph" role="img" aria-label="" style="height:170px;background-image:var(--p2);background-position:center 60%"></div><div><h3>Elämykset</h3><p>Soutuvene, SUP-laudat, sienestys ja talvella avantouinti.</p><span class="more">Avaa esittely</span></div></a>
+  </div>
+ </div>
+</section>
+
+<section id="aktiviteetit">
+ <div class="wrap">
+  <h2>Tekemistä joka vuodenaikaan</h2>
+  <div class="acts">
+   <div class="act"><h3>Soutu ja SUP</h3><p>Soutuvene ja kaksi SUP-lautaa mökkien käytössä. Veneilyliivit löytyvät.</p></div>
+   <div class="act"><h3>Uinti ja kalastus</h3><p>Loiva ranta sopii lapsille. Laiturilta pääsee uimaan ja kalastamaan.</p></div>
+   <div class="act"><h3>Lentopallo</h3><p>Pihassa on lentopallokenttä.</p></div>
+   <div class="act"><h3>Laavu</h3><p>Laavu on 0,5 km päässä.</p></div>
+   <div class="act"><h3>Sieni- ja marjametsä</h3><p>Sienestystä ja marjastusta lähimetsissä.</p></div>
+   <div class="act"><h3>Avantouinti</h3><p>Talvella avanto pysyy sulana avantopumpun ansiosta.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="prices" id="hinnasto">
+ <div class="wrap">
+  <h2>Hinnasto</h2>
+  <p class="lead">Hinta koskee koko kokonaisuutta: päämökkiä, saunamökkiä, pikkumökkejä ja poreammetta. Hinnat ovat esimerkkejä, päivitä omasi.</p>
+  <div class="pricecard">
+   <div class="pc-head"><h3>Loveslampi, koko kohde</h3><p>Päämökki, pikkumökit, saunamökki ja poreamme</p></div>
+   <div class="pc-prices">
+    <div><span>Vuorokausi</span><b>260&nbsp;€</b></div>
+    <div><span>Viikko</span><b>1&nbsp;600&nbsp;€</b></div>
+   </div>
+  </div>
+  <p class="note">Liinavaatteita ei ole mukana. Sovi loppusiivous ja polttopuut varauksen yhteydessä.</p>
+ </div>
+</section>
+
+<section class="map" id="sijainti" style="padding:92px 0 80px">
+ <div class="wrap">
+  <div class="maphead">
+   <div><h2>Sijainti kartalla</h2><p class="lead" style="margin-top:10px">Loveslampi, Hamina. Noin 150 m vt 26:lta.</p></div>
+   <a class="btn dark" href="https://maps.app.goo.gl/yLwq1oeL7zCvX9jL6?g_st=ac" target="_blank" rel="noopener">Avaa Google Mapsissa</a>
+  </div>
+  <div class="mapframe"><iframe title="Loveslammin sijainti kartalla" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=60.848234,27.407809&z=14&output=embed"></iframe></div>
+ </div>
+</section>
+
+
+</main>
+
+<main class="page" id="p-paamokki" hidden>
+ <div class="pagehead"><div class="wrap"><a class="back" href="#etusivu">← Takaisin etusivulle</a><h1>Päämökki</h1><p>Tumma hirsimökki vuodelta 1993: kolme makuuhuonetta, leveä kuisti ja parveke metsän reunassa.</p></div></div>
+ <div class="wrap">
+  <div class="pagehero" role="img" aria-label="Päämökki kuusimetsän edessä" style="background-image:var(--main)"></div>
+  <div class="pblocks">
+   <div class="pblock"><h3>Rakenne</h3><ul><li>94 m², kaksikerroksinen</li><li>3 mh + k + oh</li><li>Rakennettu 1993, talviasuttava</li><li>Leveä kuisti ja parveke</li></ul></div>
+   <div class="pblock"><h3>Lämmitys ja ilmanvaihto</h3><ul><li>Ilmalämpöpumppu</li><li>Ilmastointi neljässä huoneessa</li><li>Sähkö- ja puulämmitys</li><li>Varaava takka ja polttopuut</li></ul></div>
+   <div class="pblock"><h3>Keittiö</h3><ul><li>Sähköliesi ja uuni, mikroaaltouuni</li><li>Kahvinkeitin, vedenkeitin, leivänpaahdin</li><li>Kaksi jääkaappi-pakastinta</li><li>Astiasto ja tiskikone</li></ul></div>
+   <div class="pblock"><h3>Pyykki ja siivous</h3><ul><li>Pesukone ja kuivausrumpu</li><li>Pölynimuri</li><li>Liinavaatteita ei ole mukana</li></ul></div>
+   <div class="pblock"><h3>Sanitaatio</h3><ul><li>Vesijohto (kaivo)</li><li>Sisä-WC ja puucee</li><li>Kolme suihkua</li><li>Erillinen suihku, hiustenkuivain</li></ul></div>
+   <div class="pblock"><h3>Muut varusteet</h3><ul><li>WLAN ja kaksi TV:tä</li><li>Matkasänky ja pinnasänky</li><li>Kaasu-ulkogrilli ja grillikatos</li><li>Verkkovirta</li></ul></div>
+  </div>
+  <div class="pgal"><h2>Kuvia</h2><div class="gal g3">
+    <div role="img" aria-label="Olohuone ja ruokailutila" style="background-image:var(--m1);background-position:center"></div>
+    <div role="img" aria-label="Ruokapöytä ja olohuone" style="background-image:var(--m2);background-position:center 60%"></div>
+    <div role="img" aria-label="Takka ja pitkä ruokapöytä" style="background-image:var(--m3);background-position:center 55%"></div>
+    <div role="img" aria-label="Keittiö" style="background-image:var(--m4);background-position:center 55%"></div>
+    <div role="img" aria-label="Parven makuuhuone" style="background-image:var(--m5);background-position:center 60%"></div>
+    <div role="img" aria-label="Makuuhuone, yhden hengen sänky" style="background-image:var(--b1);background-position:center 55%"></div>
+    <div role="img" aria-label="Makuuhuone, parisänky" style="background-image:var(--b2);background-position:center 60%"></div>
+    <div role="img" aria-label="Kylpyhuone" style="background-image:var(--m6);background-position:center 55%"></div>
+    <div role="img" aria-label="Kuisti, grilli ja pikkumökit" style="background-image:var(--m7);background-position:center 55%"></div>
+  </div></div>
+  <div class="pcta"><div><h3>Kiinnostuitko?</h3><p>Kysy vapaita ajankohtia ja varaa Loveslampi.</p></div><div class="btns"><a class="btn" href="tel:+358407650318">Soita 040 7650 318</a><a class="btn alt" href="mailto:airikkatoni@gmail.com">Lähetä sähköpostia</a></div></div>
+ </div>
+</main>
+<main class="page" id="p-pikkumokit" hidden>
+ <div class="pagehead"><div class="wrap"><a class="back" href="#etusivu">← Takaisin etusivulle</a><h1>Pikkumökit</h1><p>Kolme pientä mökkiä pihapiirissä lisämajoitukseen. Vuokraus on kokonaisuus, jossa nukkumapaikat riittävät noin 20 hengelle.</p></div></div>
+ <div class="wrap">
+  <div class="pagehero" role="img" aria-label="Pikkumökit metsän reunassa" style="background-image:var(--p6)"></div>
+  <div class="pblocks">
+   <div class="pblock"><h3>Mökit</h3><ul><li>18 m² mökki</li><li>Kaksi 10 m² mökkiä</li><li>Kesäkäytössä</li><li>Pihapiirissä metsän reunassa</li></ul></div>
+   <div class="pblock"><h3>Majoitus</h3><ul><li>Nukkumapaikat noin 20 hengelle koko kokonaisuudessa</li><li>Sopivat lisämajoitukseen seurueelle tai vieraille</li><li>Vuokrataan osana kokonaisuutta</li></ul></div>
+   <div class="pblock"><h3>Lähellä</h3><ul><li>Grillikatos sekä varasto ja puuvaja</li><li>Keittiö, suihkut ja sauna päämökissä ja saunamökissä</li><li>Laituri ja ranta pihan toisella puolella</li></ul></div>
+  </div>
+  <div class="pgal"><h2>Kuvia</h2><div class="gal g3">
+    <div role="img" aria-label="Pikkumökki: parisänky ja vuodesohva" style="background-image:var(--k1);background-position:center 55%"></div>
+    <div role="img" aria-label="Pikkumökki: sänky, sohva ja ruokapöytä" style="background-image:var(--k2);background-position:center 55%"></div>
+    <div role="img" aria-label="Pikkumökki: kerrossänky, penkki ja pöytä" style="background-image:var(--k3);background-position:center 55%"></div>
+    <div role="img" aria-label="Pikkumökki: kerrossänky ja ruokailuryhmä" style="background-image:var(--k4);background-position:center 55%"></div>
+  </div></div>
+  <div class="pcta"><div><h3>Kiinnostuitko?</h3><p>Kysy vapaita ajankohtia ja varaa Loveslampi.</p></div><div class="btns"><a class="btn" href="tel:+358407650318">Soita 040 7650 318</a><a class="btn alt" href="mailto:airikkatoni@gmail.com">Lähetä sähköpostia</a></div></div>
+ </div>
+</main>
+<main class="page" id="p-rantasauna" hidden>
+ <div class="pagehead"><div class="wrap"><a class="back" href="#etusivu">← Takaisin etusivulle</a><h1>Rantasauna</h1><p>Erillinen saunamökki järven rannassa: puulämmitteinen sauna, terassi ja poreamme.</p></div></div>
+ <div class="wrap">
+  <div class="pagehero" role="img" aria-label="Saunamökki ja terassi" style="background-image:var(--p4)"></div>
+  <div class="pblocks">
+   <div class="pblock"><h3>Saunamökki</h3><ul><li>51 m² erillinen rakennus</li><li>Puulämmitteinen sauna 7–10 saunojalle</li><li>Pukuhuone ja pesuhuone</li><li>Näkymä lauteilta järvelle</li><li>Ilmalämpöpumppu</li></ul></div>
+   <div class="pblock"><h3>Oleskelu ja varusteet</h3><ul><li>Levitettävä sohva kahdelle</li><li>Oma keittiö: astiasto ja astianpesukone</li><li>Kylpyhuoneessa kuivausrumpu ja pyykinpesukone</li></ul></div>
+   <div class="pblock"><h3>Poreamme ja terassi</h3><ul><li>6 hengen Jacuzzi J235 -poreamme</li><li>Poreamme kuuluu vuokrahintaan</li><li>Iso terassi, ulkokalusteet ja aurinkotuolit</li></ul></div>
+   <div class="pblock"><h3>Ranta</h3><ul><li>Oma laituri</li><li>Loiva hiekka- ja kallioranta, sopii lapsille</li><li>Avantopumppu pitää avannon talvella sulana</li></ul></div>
+  </div>
+  <div class="pgal"><h2>Kuvia</h2><div class="gal g3">
+    <div role="img" aria-label="Saunamökin oleskelutila ja näkymä järvelle" style="background-image:var(--s1);background-position:center"></div>
+    <div role="img" aria-label="Saunamökin keittiö- ja ruokailutila" style="background-image:var(--s2);background-position:center 55%"></div>
+    <div role="img" aria-label="Terassi ja poreamme" style="background-image:var(--p3);background-position:center"></div>
+    <div role="img" aria-label="Sauna sisältä" style="background-image:var(--p1);background-position:center"></div>
+    <div role="img" aria-label="Sauna ja ikkuna järvelle" style="background-image:var(--s3);background-position:center 55%"></div>
+    <div role="img" aria-label="Saunan lauteet ja kiuas" style="background-image:var(--s4);background-position:center"></div>
+    <div role="img" aria-label="Sauna ja kiuas" style="background-image:var(--s5);background-position:center 55%"></div>
+    <div role="img" aria-label="Pesuhuone, pyykinpesukone ja kuivausrumpu" style="background-image:var(--s6);background-position:center 55%"></div>
+    <div role="img" aria-label="Suihkut" style="background-image:var(--s7);background-position:center 55%"></div>
+    <div role="img" aria-label="Terassi ja polku järvelle" style="background-image:var(--p8);background-position:center"></div>
+    <div role="img" aria-label="Laituri ja saunamökki" style="background-image:var(--p5);background-position:center"></div>
+    <div role="img" aria-label="Aamu laiturilla" style="background-image:var(--p7);background-position:center"></div>
+  </div></div>
+  <div class="pcta"><div><h3>Kiinnostuitko?</h3><p>Kysy vapaita ajankohtia ja varaa Loveslampi.</p></div><div class="btns"><a class="btn" href="tel:+358407650318">Soita 040 7650 318</a><a class="btn alt" href="mailto:airikkatoni@gmail.com">Lähetä sähköpostia</a></div></div>
+ </div>
+</main>
+<main class="page" id="p-ymparisto" hidden>
+ <div class="pagehead"><div class="wrap"><a class="back" href="#etusivu">← Takaisin etusivulle</a><h1>Ympäristö</h1><p>Loveslampi sijaitsee metsän syleilyssä Haminan, Kouvolan ja Luumäen rajalla.</p></div></div>
+ <div class="wrap">
+  <div class="pagehero" role="img" aria-label="Laituri ja saunamökki" style="background-image:var(--p5)"></div>
+  <div class="pblocks">
+   <div class="pblock"><h3>Sijainti</h3><ul><li>Hamina, Loveslampi</li><li>Haminan, Kouvolan ja Luumäen rajalla</li><li>Noin 150 m vt 26:lle: tien ääni kantautuu hieman, mutta perille on nopea ja helppo tulla</li><li>Lähin naapuri 200 m</li></ul></div>
+   <div class="pblock"><h3>Ranta ja luonto</h3><ul><li>Loiva hiekka- ja kallioranta, sopii lapsille</li><li>Laituri ja soutuvene</li><li>Laavu 0,5 km päässä</li><li>Metsä pihan takana, sienestystä ja marjastusta</li></ul></div>
+   <div class="pblock"><h3>Etäisyydet</h3><ul><li>Bussipysäkki 1 km, ravintola 4 km</li><li>Kauppa 12 km, Taavetti 13 km</li><li>Hamina 35 km</li><li>Kouvola, Lappeenranta, juna-asema ja lentokenttä 48 km</li></ul></div>
+  </div>
+  <div class="pgal"><h2>Kuvia</h2><div class="gal g3">
+    <div role="img" aria-label="Aamu laiturilla" style="background-image:var(--p7)"></div>
+    <div role="img" aria-label="Grillikatos ja järvinäkymä" style="background-image:var(--p9)"></div>
+    <div role="img" aria-label="Polku rantaan" style="background-image:var(--p8)"></div>
+  </div></div>
+  <div class="pcta"><div><h3>Kiinnostuitko?</h3><p>Kysy vapaita ajankohtia ja varaa Loveslampi.</p></div><div class="btns"><a class="btn" href="tel:+358407650318">Soita 040 7650 318</a><a class="btn alt" href="mailto:airikkatoni@gmail.com">Lähetä sähköpostia</a></div></div>
+ </div>
+</main>
+<main class="page" id="p-elamykset" hidden>
+ <div class="pagehead"><div class="wrap"><a class="back" href="#etusivu">← Takaisin etusivulle</a><h1>Elämykset</h1><p>Tekemistä joka vuodenaikaan: veteen, metsään ja saunaan.</p></div></div>
+ <div class="wrap">
+  <div class="pagehero" role="img" aria-label="SUP-laudat saunamökin vieressä" style="background-image:var(--p2)"></div>
+  <div class="pblocks">
+   <div class="pblock"><h3>Vesillä</h3><ul><li>Soutuvene ja veneilyliivit</li><li>Kaksi SUP-lautaa</li><li>Uinti loivalta rannalta</li><li>Kalastus laiturilta</li></ul></div>
+   <div class="pblock"><h3>Pihassa ja metsässä</h3><ul><li>Lentopallokenttä</li><li>Sienestys ja marjastus</li><li>Laavu 0,5 km päässä</li><li>Kaasu-ulkogrilli ja grillikatos</li></ul></div>
+   <div class="pblock"><h3>Sauna ja poreamme</h3><ul><li>Puulämmitteinen rantasauna</li><li>Poreamme 6 hengelle, kuuluu hintaan</li></ul></div>
+   <div class="pblock"><h3>Talvella</h3><ul><li>Avantouinti, avantopumppu pitää avannon sulana</li><li>Sauna lämpimänä avannon vieressä</li></ul></div>
+  </div>
+  <div class="pgal"><h2>Kuvia</h2><div class="gal g3">
+    <div role="img" aria-label="SUP-laudat" style="background-image:var(--p2)"></div>
+    <div role="img" aria-label="Aamu laiturilla" style="background-image:var(--p7)"></div>
+    <div role="img" aria-label="Laituri ja soutuvene" style="background-image:var(--p5)"></div>
+    <div role="img" aria-label="Poreamme terassilla" style="background-image:var(--p3)"></div>
+    <div role="img" aria-label="Lentopallokenttä järven rannalla" style="background-image:var(--v1);background-position:center 45%"></div>
+  </div></div>
+  <div class="pcta"><div><h3>Kiinnostuitko?</h3><p>Kysy vapaita ajankohtia ja varaa Loveslampi.</p></div><div class="btns"><a class="btn" href="tel:+358407650318">Soita 040 7650 318</a><a class="btn alt" href="mailto:airikkatoni@gmail.com">Lähetä sähköpostia</a></div></div>
+ </div>
+</main>
+
+<footer id="yhteystiedot">
+ <div class="wrap">
+  <div class="grid">
+   <div><h3>Yhteystiedot</h3><p><span class="contact-name">Toni Airikka</span><br><a href="tel:+358407650318">040 7650 318</a><br><a href="mailto:airikkatoni@gmail.com">airikkatoni@gmail.com</a></p></div>
+   <div><h3>Sijainti</h3><p>Loveslampi, Hamina<br>Haminan, Kouvolan ja Luumäen rajalla</p></div>
+  </div>
+  <p class="copy">© 2026 Loveslampi Mökit</p>
+ </div>
+</footer>
+
+<dialog class="lb" id="lb" aria-label="Kuva isona">
+ <button class="lb-close" type="button">Sulje</button>
+ <button class="lb-prev" type="button" aria-label="Edellinen kuva">‹</button>
+ <div class="lb-stage"><div class="lb-img" role="img"></div><div class="lb-cap"></div></div>
+ <button class="lb-next" type="button" aria-label="Seuraava kuva">›</button>
+</dialog>
+
+<script>
+const menu=document.getElementById('menu'),links=document.getElementById('links');
+menu.onclick=()=>{const o=links.classList.toggle('open');menu.setAttribute('aria-expanded',o)};
+links.onclick=e=>{if(e.target.tagName==='A'){links.classList.remove('open');menu.setAttribute('aria-expanded',false)}};
+
+
+const home=document.getElementById('home');
+function route(){
+ const h=location.hash,m=h.match(/^#sivu-(\w+)/);
+ document.querySelectorAll('.page').forEach(x=>x.hidden=true);
+ if(m){const pg=document.getElementById('p-'+m[1]);if(pg){home.hidden=true;pg.hidden=false;window.scrollTo(0,0);return}}
+ home.hidden=false;
+ const t=h.length>1&&document.getElementById(decodeURIComponent(h.slice(1)));
+ if(t)t.scrollIntoView();else if(!h)window.scrollTo(0,0);
+}
+window.addEventListener('hashchange',route);route();
+
+const lb=document.getElementById('lb'),lbImg=lb.querySelector('.lb-img'),lbCap=lb.querySelector('.lb-cap');
+let grp=[],gi=0;
+function lbShow(i){
+ gi=(i+grp.length)%grp.length;const el=grp[gi];
+ lbImg.style.backgroundImage=getComputedStyle(el).backgroundImage;
+ const a=el.getAttribute('aria-label')||'';lbCap.textContent=a;lbImg.setAttribute('aria-label',a);
+ lb.querySelector('.lb-prev').hidden=lb.querySelector('.lb-next').hidden=grp.length<2;
+}
+function lbOpen(el){const g=el.closest('.gal');grp=g?[...g.children]:[el];lbShow(grp.indexOf(el));lb.showModal()}
+document.querySelectorAll('.gal>div,.pagehero').forEach(el=>{el.tabIndex=0;el.setAttribute('role','button')});
+document.addEventListener('click',e=>{const el=e.target.closest('.gal>div,.pagehero');if(el)lbOpen(el)});
+document.addEventListener('keydown',e=>{
+ const el=e.target.closest&&e.target.closest('.gal>div,.pagehero');
+ if(el&&(e.key==='Enter'||e.key===' ')){e.preventDefault();lbOpen(el)}
+ if(lb.open){if(e.key==='ArrowRight')lbShow(gi+1);if(e.key==='ArrowLeft')lbShow(gi-1)}
+});
+lb.querySelector('.lb-close').onclick=()=>lb.close();
+lb.querySelector('.lb-prev').onclick=()=>lbShow(gi-1);
+lb.querySelector('.lb-next').onclick=()=>lbShow(gi+1);
+lb.addEventListener('click',e=>{if(e.target===lb||e.target.classList.contains('lb-stage'))lb.close()});
+let tx=0;
+lb.addEventListener('touchstart',e=>{tx=e.changedTouches[0].clientX},{passive:true});
+lb.addEventListener('touchend',e=>{const d=e.changedTouches[0].clientX-tx;if(Math.abs(d)>50&&grp.length>1)lbShow(gi+(d<0?1:-1))});
+</script>
+</body>
+</html>
